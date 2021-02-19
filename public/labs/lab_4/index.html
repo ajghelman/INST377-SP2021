@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Ghelman's Lab 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Alex Ghelman's Lab 4</h1>
+    <div class="container">
+    <form action="\api" method="post">
+        <ul class="flex-outer">
+          <li>
+            <label for="fname">First Name</label>
+            <input name="undefined" type="text" id="fname">
+          </li>
+          <li>
+            <label for="lname">Last Name</label>
+            <input name="undefined" type="text" id="lname">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input name="undefined" type="email" id="email">
+          </li>
+          <li>
+            <label for="phone">Phone</label>
+            <input name="undefined" type="tel" id="phone">
+          </li>
+          <li>
+            <label for="text-field">Text Field</label>
+            <textarea name="message" rows="5" cols="33" id="text-field" placeholder="This is some default message text."></textarea>
+          </li>
+          <li>
+            <p>Age</p>
+            <ul class="flex-inner">
+                <li>
+                    <input name="undefined" type="checkbox" id="eighteen-to-thirtyfive">
+                    <label for="eighteen-to-thirtyfive">18-35</label>
+                  </li>
+                  <li>
+                    <input name="undefined" type="checkbox" id="thirtyfive-to-fifty">
+                    <label for="thirtyfive-to-fifty">35-50</label>
+                </li>
+                <li>
+                    <input name="undefined" type="checkbox" id="fifty-to-sixtyfive">
+                    <label for="fifty-to-sixtyfive">50-65</label>
+                </li>
+            </ul>
+          </li>
+          <li>
+            <button name="undefined" id ="submit" type="submit">SUBMIT FORM</button>
+            <label for="submit"></label>
+          </li>
+        </ul>
+      </form>
+    </div>
+</body>
+</html>
