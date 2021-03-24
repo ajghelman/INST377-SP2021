@@ -42,6 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(platforms)
       }
     }
+
+    
   
     function movePlatforms() {
       if (doodlerBottomSpace > 200) {
