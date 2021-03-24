@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    
+
   
     function movePlatforms() {
       if (doodlerBottomSpace > 200) {
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
               platforms.shift()
               console.log(platforms)
               score++
-              var newPlatform = new Platform(600)
+              let newPlatform = new Platform(600)
               platforms.push(newPlatform)
             }
         }) 
